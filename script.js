@@ -20,9 +20,8 @@ for(const button of buttons){
       }
     let div = document.createElement('div');
     const body = document.body;
-      let source = 'https::levelevnr';
     div.innerHTML = `
-    <img src='${source}' alt='a success image'>
+    <img src='illustration-thank-you.svg' alt='a success image'>
       <p class='orange-text'>
         You selected ${selectedBtn} out of 5
      </p>
